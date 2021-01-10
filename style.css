@@ -1,0 +1,192 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.main-nav
+{
+ float: right;
+ list-style= none;
+ margin-bottom: 30px;
+ }
+ 
+.main-nav li
+{
+ display: inline-block;
+} 
+
+.main-nav li.active a
+{
+ border: 1px solid white;
+ }
+
+.main-nav li a
+{
+ color: white;
+ text-decoration: none;
+ padding: 5px 20px;
+ font-family: "Roboto", sans-serif;
+ font-size: 15px;
+ }
+ 
+ .main-nav li a:hover
+ {
+  border: 1px solid white;
+  }
+
+.hero-image {
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Donut_coffee_2_DOF.png");
+  background-color: #cccccc;
+  height: 730px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.para
+{
+ border: 2px solid white;
+ }
+
+.container {
+    padding: 16px;
+}
+
+.row{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.col-1{
+flex-basis: 25%;
+padding: 10px;
+min-width: 200px;
+margin-bottom: 50px;
+transition: transform 0.5s;
+}
+
+.col-1 img{
+width: 100%;
+}
+
+.col-1:hover{
+transform: translateY(-5px);
+}
+
+.col-1 p{
+font-size: 14px;
+}
+
+h4{
+color: #555;
+font-weight: normal;
+}
+
+.title{
+text-align: center;
+margin: 0 auto 80px;
+position: relative;
+line-height: 60px;
+color: #555;
+}
+
+.title::after{
+content:'';
+background: #ff523b;
+width: 80px;
+height: 5px;
+border-radius: 5px;
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.noteableCustomers{
+padding-top: 100px;
+}
+
+.noteableCustomers .col-1{
+text-align: center;
+padding: 40px 20px;
+box-shadow: 0 0 20px 0px (0,0,0,0.1);
+cursor: pointer;
+transition: transform 0.5s;
+}
+
+.noteableCustomers .col-1:hover{
+transform: translateY(-10px);
+}
+
+.noteableCustomers .col-1 p{
+font-size: 12px;
+margin: 12px 0
+color: #777;
+}
+
+.noteableCustomers .col-1 p{
+font-weight: 600;
+color: #555;
+font-size: 16px;
+}
+
+.noteableCustomers .col-1 img{
+width: 90px;
+margin-top: 20px;
+border-radius:50px;
+}
+
+.fa.fa-quote-left{
+font-size: 34px;
+color: #ff523b;
+}
+
+.footer{
+background: #000;
+color: #8a8a8a;
+font-size: 14px;
+padding: 60px 0 20px;
+}
+
+.footer p{
+color: #8a8a8a
+}
+
+.footer h3{
+color: #fff;
+margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3{
+min-width: 250px;
+margin-bottom: 20px;
+}
+
+.footer-col-1{
+flex-basis: 30%;
+}
+.footer-col-2{
+flex: 1;
+text-align: center;
+}
+.footer-col-2 img{
+width: 180px;
+margin-bottom: 20px;
+}
+.footer-col-3{
+flex-basis: 12%;
+text-align: center;
+}
+
+ul{
+list-style-type: none;
+}
